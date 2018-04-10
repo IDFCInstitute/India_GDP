@@ -3,8 +3,7 @@
 **Spatial Distribution of India’s GDP**
 
 
-This user interactive GDP Webmap tool created by [IDFC Institute](<http://www.idfcinstitute.org/>), [Urban Expansion Observatory](https://uxo.mes.ac.in/) at the Mahatma Education Society and [Valectus](https://valectus.com/), displays information of India GDP along with state
-Boundary.
+This user interactive GDP Webmap tool display information of India GDP along with state Boundary.
 
 **GDP:** An estimate of Gross Domestic Product (GDP) Derived from satellite Data.
 Collection of data on economic variables, especially sub-national income levels,
@@ -33,3 +32,7 @@ Front end is created by using JS, HTML5, CSS3, Bootstrap 3.7 and Mapbox GL.
 **Folder Structure**
 
 ![Folder](https://github.com/IDFCInstitute/GDP_Data/blob/master/Images/GDP.png)
+
+* Data processed and created by[IDFC Institute](<http://www.idfcinstitute.org/>), [Urban Expansion Observatory](https://uxo.mes.ac.in/) at the Mahatma Education Society and [Valectus](https://valectus.com/).
+
+If you have any query, please feel free to contact Mr.Kshitij Batra (Email ID: kshitij.batra@idfcinstitute.org)
