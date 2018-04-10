@@ -1,3 +1,5 @@
+![cap](https://github.com/IDFCInstitute/GDP_Data/blob/master/Images/media/c681ae9ead743e139f607ab95a03a1a7.jpg)
+
 **Spatial Distribution of India’s GDP**
 
 
