@@ -29,3 +29,7 @@ Geoserver TMS (PBF) layers. See [link](<https://www.mapbox.com/mapbox-gl-js>)
 for more information.
 
 Front end is created by using JS, HTML5, CSS3, Bootstrap 3.7 and Mapbox GL.
+
+**Folder Structure**
+
+![Folder](https://github.com/IDFCInstitute/GDP_Data/blob/master/Images/GDP.png)
