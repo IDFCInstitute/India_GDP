@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+    <title>GDP</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<link rel="shortcut icon" type="image/png" href="http://cdn.9appsdownloading.com/group1/M01/35/1C/poYBAFcpqU-AFa5CAAAMm35WLrc217.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='CSS/Geocoder.css' rel='stylesheet' />
+  <link rel="stylesheet" type="text/css" href="CSS/GDP.css">
+    <style>
+     html, body{width: 100%; height: 100%; margin: 0; padding: 0;position: absolute;}
+
+ #map {width:100%;height:100%;top:0px;left:0px;}
+
+</style>
+</head>
+<body onload="GDP();">
+
+
+ <!--  <div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title"><center><b>Spatial Tool to Explore Patterns of GDP in India</b><br>
+                <span><img class="logo"src="http://www.idfcinstitute.org/site/assets/files/1044/logo.svg"  alt="image"/></span></center></h4></div>
+      <div class="modal-body">
+         <p class="modal_text">This tool has been created by <a href="http://www.idfcinstitute.org/" target="_blank">IDFC Institute</a>,<a href="https://uxo.mes.ac.in/">Urban Expansion Observatory</a>&nbsp at the Mahatma Education Society and <a href="https://valectus.com/"> Valectus </a> in Mumbai to allow users to explore in granular detail,the form that urban growth is taking across India.</p><p class="modal_text">The data here shows the distribution of built-up area , Settlement and population for four time periods: 1975, 1990, 2000 and 2014 along with Nighttime Light data. Additionally, the user can enable layers to display the major roads to visualize how urban growth has been occurring around road networks as well as zoom to indian cities to understand urban growth of same.</p>
+<p class="modal_text">The built-up, Settlement density and population layer data has been extracted from the Global Human Settlement Layer (see <a href="http://ghsl.jrc.ec.europa.eu/" target="_blank">link </a>for more info)</br>&nbsp &nbsp For more details on the background and methodology,please see <a href="http://www.idfcinstitute.org/projects/transitions/spatial-analysis/" target="_blank">link.</a></br>&nbsp &nbsp Basemaps courtesy of Mapbox, Open Street Maps and DigitalGlobe, PostgreSQL 9.5 for data storage, Geoserver 2.11.2 for processing and OpenLayers 3 (JavaScript) for front-end development.</p><p class="modal_text">Data Download <a href="https://github.com/seema30fresher/IndiaMap_Data" target="_blank">link</a></br>For further queries, please contact kshitij.batra@idfcinstitute.org.
+        <p><img class="img-responsive" src="images/GDP.png"></p>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='JS/Geocoder.js'></script>
+    <script type="text/javascript" src="JS/GDP.js"></script>
+     
+ <i id="menu" class="fa fa-align-justify" style="font-size:25px;position: absolute;right:8px;top:10px;background:#ffffff;color:#000000;width:40px;height:33px;padding:5px;text-align: center;border-radius: 5px;z-index: 999999"></i>
+
+<div id="map"> <nav class="navbar navbar-default" style="padding:10px;padding-left:19px;padding-top:13px;background-color:#37474F;color: #ffffff; margin: 0 auto;font-size:21PX;font-weight: bold;width: 100%;position:relative;">GDP Distribution of India
+    <div class="navbar-header">
+                   </div>
+                </div>
+                </nav></div>
+<div id="try" class="menu1">
+  <i id="quest" class=" fa fa-question" style="text-align:center;padding:5px;font-size:25px;width:35px;border-radius: 5px;height:32px;right:4px;z-index: 9999;position: absolute;background-color:#ffffff;margin-top:180px;border:2px solid black "></i>
+   <i id="geocoder1" class="fa fa-search" style="text-align:center;padding:5px;font-size:20px;width:35px;border-radius: 5px;height:32px;right:4px;z-index: 9999;position: absolute;background-color:#ffffff;margin-top:140px;border:2px solid black"></i>
+   <i id="legend" class="fa fa-list" style="text-align:center;padding:5px;font-size:20px;width:35px;border-radius: 5px;height:32px;right:4px;z-index: 9999;position: absolute;background-color:#ffffff;margin-top:220px;border:2px solid black"></i>
+<div id="navigation" class="navigation"></div>
+  <div id="fullscreen" class="fullscreen"></div>
+ <div id="geocoder" class="geocoder"></div>
+ <div id="question_div" class="right-arrow"><img src="images/Mouse.png"/></div>
+ </div>
+ <div id="layer_Menu">
+      <div id="rn" class='my-legend'></br><label><strong>Legend</strong></label></br>
+            <div class='legend-title' style="text-align: center">GDP [Millions of US Dollar's / Sq.Km]</div>
+               <div class='legend-scale'>
+                <ul class='legend-labels'>
+              <li><span style='background:#1e90ff;'></span>1 &nbsp 7</li>
+              <li><span style='background:#20b2aa;'></span>18</li>
+              <li><span style='background:#9acd32;'></span>32</li>
+              <li><span style='background:#ffff00;'></span>49</li>
+              <li><span style='background:#ffa500;'></span>68</li>
+              <li><span style='background:#ff4500;'></span>90</li>
+              <li><span style='background:#ff0000;'></span>115</li>
+              <li><span style='background:#f768a1;'></span>170</li>&nbsp</ul>
+        </div>
+
+       </div>
+     </div>
+</div></body>
+</html>
