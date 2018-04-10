@@ -1,6 +1,8 @@
 ![capture](media/c681ae9ead743e139f607ab95a03a1a7.jpg)
 
-GDP Distribution of India
+capture
+
+\#Spatial Distribution of India’s GDP
 
 This user interactive GDP Webmap tool created by [IDFC Institute]
 (<http://www.idfcinstitute.org/>), [Urban Expansion Observatory]
