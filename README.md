@@ -33,6 +33,6 @@ Front end is created by using JS, HTML5, CSS3, Bootstrap 3.7 and Mapbox GL.
 
 ![Folder](https://github.com/IDFCInstitute/GDP_Data/blob/master/Images/GDP.png)
 
-* Data processed and created by[IDFC Institute](<http://www.idfcinstitute.org/>), [Urban Expansion Observatory](https://uxo.mes.ac.in/) at the Mahatma Education Society and [Valectus](https://valectus.com/).
+* Data processed and created by [IDFC Institute](<http://www.idfcinstitute.org/>), [Urban Expansion Observatory](https://uxo.mes.ac.in/)  at the Mahatma Education Society and [Valectus](https://valectus.com/).
 
 If you have any query, please feel free to contact Mr.Kshitij Batra (Email ID: kshitij.batra@idfcinstitute.org)
