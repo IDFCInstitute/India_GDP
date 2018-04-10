@@ -54,17 +54,17 @@ map.on('error', e => {
         } }
 resize();
 $(window).on('resize', resize);
-// $(document).ready(function() {
-// var yetVisited =sessionStorage['visited'];
-// if (!yetVisited) {
-//     $("#myModal").modal("show").on("shown", function () {
-//         window.setTimeout(function () {
-//             $("#myModal").modal("hide");
-//         }, 20000);
-//     });
+$(document).ready(function() {
+var yetVisited =sessionStorage['visited'];
+if (!yetVisited) {
+    $("#myModal").modal("show").on("shown", function () {
+        window.setTimeout(function () {
+            $("#myModal").modal("hide");
+        }, 20000);
+    });
 
-//     // open popup
-//    sessionStorage['visited'] ="yes";
-// }
-// });
+    // open popup
+   sessionStorage['visited'] ="yes";
+}
+});
 }
