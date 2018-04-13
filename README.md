@@ -14,6 +14,8 @@ alternative means for measuring economic activity.
 
 The product source from [National Centers for Environmental Information](https://ngdc.noaa.gov/eog/dmsp/download_gdp.html)
 
+Basemaps courtesy of Mapbox, Open Street Maps , Geoserver 2.11.2 for processing and Mapbox GL (JavaScript) for front-end development. 
+
 **Software Required**
 
 **Geoserver:** Geoserver is an open source java-based software, which allows to edit
