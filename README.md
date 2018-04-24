@@ -14,7 +14,7 @@ alternative means for measuring economic activity.
 
 The product source from [National Centers for Environmental Information](https://ngdc.noaa.gov/eog/dmsp/download_gdp.html)
 
-Basemaps courtesy of [Mapbox](https://www.mapbox.com) , [Carto](https://carto.com/) , [Open Street Maps](https://www.openstreetmap.org) ,    [Cesium](https://cesiumjs.org/) , [Geoserver 2.11.2](http://geoserver.org/) for processing and Mapbox GL (JavaScript) for front-end development. 
+Basemaps courtesy of [Mapbox](https://www.mapbox.com) , [Carto](https://carto.com/) , [Open Street Maps](https://www.openstreetmap.org) and [Cesium](https://cesiumjs.org/) , [Geoserver 2.11.2](http://geoserver.org/) for processing and Mapbox GL (JavaScript) for front-end development. 
 
 **Software Required**
 
