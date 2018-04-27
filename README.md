@@ -29,7 +29,7 @@ easy to put any dynamic maps in web pages. All the data was displayed by using
 Geoserver TMS (PBF) layers. See [link](<https://www.mapbox.com/mapbox-gl-js>)
 for more information.
 
-**Geocoding:** Simple-Jekyll-Search library is used for custom geocoding,see [link](https://github.com/christian-fei/Simple-Jekyll-Search) for more information.
+**Geocoding:** Simple-Jekyll-Search library is used for custom geocoding, see [link](https://github.com/christian-fei/Simple-Jekyll-Search) for more information.
 
 Front end is created by using JS, HTML5, CSS3, Bootstrap 3.7 and Mapbox GL.
 
