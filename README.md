@@ -12,7 +12,16 @@ Additionally, the informal economy is often excluded from official statistics.
 Nighttime lights satellite imagery and the Land Scan population grid provide an
 alternative means for measuring economic activity.
 
-The product source from [National Centers for Environmental Information](https://ngdc.noaa.gov/eog/dmsp/download_gdp.html)
+**Dataset sources** 
+
+GDP - Ghosh, T., Powell, R., Elvidge, C. D., Baugh, K. E., Sutton, P. C., & Anderson, S. (2010).Shedding light on the 
+global distribution of economic activity. The Open Geography Journal (3), 148-161. (https://ngdc.noaa.gov/eog/dmsp/download_gdp.html)
+
+Population: LandScan - Year 2006 (https://landscan.ornl.gov/)
+
+Infrastructure: Downloaded and processed from Geofabrik (http://www.geofabrik.de/)
+
+State & District Boundary: (https://github.com/datameet/maps/tree/master/Districts)
 
 Basemaps courtesy of [Mapbox](https://www.mapbox.com) , [Carto](https://carto.com/) , [Open Street Maps](https://www.openstreetmap.org) and [Cesium](https://cesiumjs.org/) , [Geoserver 2.11.2](http://geoserver.org/) for processing and Mapbox GL (JavaScript) for front-end development. 
 
