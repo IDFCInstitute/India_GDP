@@ -14,7 +14,7 @@ alternative means for measuring economic activity.
 
 **Dataset sources** 
 
-GDP - Ghosh, T., Powell, R., Elvidge, C. D., Baugh, K. E., Sutton, P. C., & Anderson, S. (2010).Shedding light on the 
+GDP: Ghosh, T., Powell, R., Elvidge, C. D., Baugh, K. E., Sutton, P. C., & Anderson, S. (2010).Shedding light on the 
 global distribution of economic activity. The Open Geography Journal (3), 148-161. (https://ngdc.noaa.gov/eog/dmsp/download_gdp.html)
 
 Population: LandScan - Year 2006 (https://landscan.ornl.gov/)
