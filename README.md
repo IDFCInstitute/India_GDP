@@ -19,6 +19,8 @@ global distribution of economic activity. The Open Geography Journal (3), 148-16
 
 Population: LandScan - Year 2006 (https://landscan.ornl.gov/)
 
+Built-up: GHSL - Year upto 2014 (http://ghsl.jrc.ec.europa.eu/)
+
 Infrastructure: Downloaded and processed from Geofabrik (http://www.geofabrik.de/)
 
 State & District Boundary: (https://github.com/datameet/maps/tree/master/Districts)
