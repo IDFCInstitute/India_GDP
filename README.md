@@ -37,7 +37,7 @@ layers in order to increase loading speed of layers. See [link](http://geoserver
 
 **Mapbox GL:** Mapbox GL is a Java Script web mapping open source library. It makes
 easy to put any dynamic maps in web pages. All the data was displayed by using
-Geoserver TMS (PBF) layers. See [link](<https://www.mapbox.com/mapbox-gl-js>)
+Geoserver TMS layers. See [link](<https://www.mapbox.com/mapbox-gl-js>)
 for more information.
 
 **Geocoding:** Simple-Jekyll-Search library is used for custom geocoding,See [link](https://github.com/christian-fei/Simple-Jekyll-Search) for more information.
